@@ -1,185 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Oklit - Blogging platform</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <head>
+        <meta charset="utf-8">
+        <title>Oklit - Blogging platform</title>
+        <meta name="description" content="">
+        <meta name="author" content="">
 
-    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+        <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
 
-    <!-- Le styles -->
-    <link href="/assets/bootstrap.min.css" rel="stylesheet">
-    <link href="/assets/styles.css" rel="stylesheet">
-  </head>
-
-  <body>
-    <div class="container">
-      <header>
-        <h1>Oklit <small>Blogging platform for developpers</small></h1>
-          <p>
-              Oklit is an open-source blogging platform made for developpers, with it you can create a successfull weblog
-              and customize it to go further.
-          </p>
-      </header>
-      <div class="content">
-        <div class="page-header" id="intro">
-          <h1>Features</h1>
-        </div>
-        <div class="row">
-          <div class="span14 media-grid">
-
-            <div class="feature">
-                <div class="feature-img">
-                <a href="/images/code-color.png">
-                <img src="/images/code-color.png" alt="" class="thumbnail" />
-                </a>
+        <!-- Le styles -->
+        <link href="/assets/bootstrap.min.css" rel="stylesheet">
+        <link href="/assets/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="startpage">
+            <div class="wrap">
+                <div class="main container">
+                    <h1>Oklit <small>Blogging platform for developpers</small></h1>
+                    <p>
+                    Oklit is an open-source blogging platform made for developpers, with it you can create a successfull weblog
+                    and customize it to suite your needs.
+                    </p>
+                    <a class="btn large show_demonstration" href="#">Discover</a>
+                    <a class="btn large show_demonstration" href="#">Download</a>
                 </div>
-                <h3>Code coloration</h3>
-                <p>Color your code in any language</p>
             </div>
-
-
-            <div class="feature">
-                <div class="feature-img">
-                <a href="/images/admin-list.png">
-                <img src="/images/admin-list.png" alt="" class="thumbnail" />
-                </a>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <p>&copy; Jules Boussekeyt 2011 - open source on github <a href="https://github.com/gordonslondon/Oklit">gordonslondon/Oklit</a></p>
+            </div>
+        </div>
+        <div class="demonstration container" style="display:none">
+            <div style="text-align: center">
+                    <a class="btn large show_demonstration" href="#">Discover</a>
+                    <a class="btn large show_demonstration" href="#">Download</a>
+            </div>
+            <div class="content">
+                <div class="page-header" id="intro">
+                    <h1>Features</h1>
                 </div>
-                <h3>Manage your posts/pages</h3>
-                <p>The admin panel allows you to create and edit posts and pages, there's also some tabs to configure your blog</p>
-            </div>
-
-
-            <div class="feature">
-                <div class="feature-img">
-                <a href="/images/markdown-preview.png">
-                <img src="/images/markdown-preview.png" alt="" class="thumbnail" />
-                </a>
+                <div class="row">
+                    <div class="span14 media-grid">
+                        <div class="feature">
+                            <div class="feature-img">
+                                <a href="/images/code-color.png">
+                                    <img src="/images/code-color.png" alt="" class="thumbnail" />
+                                </a>
+                            </div>
+                            <h3>Code coloration</h3>
+                            <p>
+                            Use the github syntax to colorize code snippets in any language
+                            </p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-img">
+                                <a href="/images/admin-list.png">
+                                    <img src="/images/admin-list.png" alt="" class="thumbnail" />
+                                </a>
+                            </div>
+                            <h3>Manage your posts/pages</h3>
+                            <p>The admin panel allows you to manage posts and pages, keyboard navigation available</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-img">
+                                <a href="/images/markdown-preview.png">
+                                    <img src="/images/markdown-preview.png" alt="" class="thumbnail" />
+                                </a>
+                            </div>
+                            <h3>Write your posts in markdown</h3>
+                            <p>
+                            With markdown you can keep your post readable and render it in HTML.
+                            </p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-img">
+                                <a href="/images/comments.png">
+                                    <img src="/images/comments.png" alt="" class="thumbnail" />
+                                </a>
+                            </div>
+                            <h3>Comments</h3>
+                            <p>Comment moderation, gravatar images, markdown syntax..</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-img">
+                                <a href="/images/backup.png">
+                                    <img src="/images/backup.png" alt="" class="thumbnail" />
+                                </a>
+                            </div>
+                            <h3>Backup your posts and images</h3>
+                            <p>Create an archive containing a dump of your database and the <code>/upload</code> folder</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-img">
+                                <a href="/images/filesystem.png">
+                                    <img src="/images/filesystem.png" alt="" class="thumbnail" />
+                                </a>
+                            </div>
+                            <h3>Filesystem manager</h3>
+                            <p>
+                            Upload somes file to a web directory, add images for your posts..
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <h3>Write your posts in markdown</h3>
-                <p>
-                    With markdown you can keep your post readable and render it in HTML.
-                    In addition you can also use the github syntax to colorize code snippets
-                </p>
-            </div>
-
-            <div class="feature">
-                <div class="feature-img">
-                <a href="/images/comments.png">
-                <img src="/images/comments.png" alt="" class="thumbnail" />
-                </a>
+                <div class="page-header" id="intro">
+                    <h1>Installation</h1>
                 </div>
-                <h3>Filesystem manager</h3>
-                <p>Upload any file, create some directories put files in it.</p>
-            </div>
-
-
-            <div class="feature">
-                <div class="feature-img">
-                <a href="/images/backup.png">
-                <img src="/images/backup.png" alt="" class="thumbnail" />
-                </a>
+                <div class="row">
+                    <div class="span14 media-grid">
+                        <p>Clone the project:</p>
+                        <pre>git clone --recursive git@github.com:gordonslondon/Oklit.git && cd Oklit</pre>
+                        <p>Now copy and fill <code>app/config.php</code> with your database user and password:</p>
+                        <pre>cp app/config.php.dist app/config.php && vi app/config.php</pre>
+                        <p>Your done! now go to your browser and see the result.</p>
+                    </div>
                 </div>
-                <h3>Backup your posts and images</h3>
-                <p>Create an archive containing a dump of your database and the <code>/upload</code> folder</p>
-            </div>
-
-
-            <div class="feature">
-                <div class="feature-img">
-                <a href="/images/filesystem.png">
-                <img src="/images/filesystem.png" alt="" class="thumbnail" />
-                </a>
+                <div class="page-header" id="intro">
+                    <h1>Access backend</h1>
                 </div>
-                <h3>Filesystem manager</h3>
-                <p>Upload any file, create some directories put files in it.</p>
-            </div>
-
-          </div>
-        </div>
-
-
-        <div class="page-header" id="intro">
-          <h1>Installation</h1>
-        </div>
-        <div class="row">
-          <div class="span14 media-grid">
-<pre>
-git clone --recursive git@github.com:gordonslondon/Oklit.git
-cd Oklit
-cp app/config.php.dist app/config.php
-chmod -R 777 app/logs
-</pre>
-
-            <p>Now fill <code>app/config.php</code> with your database user and password</p>
-
-            <p>Your done! now go to your browser and see the result.</p>
-
-          </div>
-        </div>
-        <div class="page-header" id="intro">
-          <h1>Access backend</h1>
-        </div>
-        <div class="row">
-          <div class="span14 media-grid">
-
-
-           <p>Create the database:</p>
-
-<pre>
-mysqladmin -u admin -p create silex_blog_dev
-mysql -u admin -p silex_blog_dev < app/schema.sql
-</pre>
-
-            <p>Create a new user:</p>
-
-<pre>
-php app/console.php user -u USER -p PASS -m admin@mail.com
-</pre>
-
-            <p>Your done! now go to <code>/admin</code></p>
-          </div>
-        </div>
-        <div class="page-header" id="intro">
-          <h1>Create a theme</h1>
-        </div>
-        <div class="row">
-          <div class="span14">
-
-
-          <p>Themes allow you to keep your modifications in a self-contained folder, it's the easiest way to keep your blog upgradable.</p>
-
-          <p>Theming support allow your to override or create:</p>
-
-          <ul>
-              <li>twig templates</li>
-              <li>css and images files</li>
-              <li>controllers</li>
-          </ul>
-
-          <p>To create a new theme:</p>
-
-          <p>create a directory under <code>web/themes/YOUR_THEME_NAME</code>.</p>
-
-          <p>enable it in the <code>app/config.php</code> file, set the value of the <code>theme</code> key to <code>YOUR_THEME_NAME</code>.</p>
-
-          <p>Your done! you can start working on your theme.</p>
-
-          </div>
-        </div>
-      </div>
-
-
-      <footer>
-        <p>&copy; Jules Boussekeyt 2011 - open source on github <a href="https://github.com/gordonslondon/Oklit">gordonslondon/Oklit</a></p>
-      </footer>
-
-    </div> <!-- /container -->
-
-  </body>
-</html>
+                <div class="row">
+                    <div class="span14 media-grid">
+                        <p>Create the database:</p>
+                        <pre>mysqladmin -u admin -p create silex_blog_dev</pre>
+                        <p>Load an empty schema:</p>
+                        <pre>mysql -u admin -p silex_blog_dev &lt; app/schema.sql</pre>
+                        <p>Create a new user:</p>
+                        <pre>php app/console.php user -u USER -p PASS -m admin@mail.com</pre>
+                        <p>Your done! now go to <code>/admin</code></p>
+                    </div>
+                </div>
+                <div class="page-header" id="intro">
+                    <h1>Create a theme</h1>
+                </div>
+                <div class="row">
+                    <div class="span14">
+                        <p>Themes allow you to keep your modifications in a self-contained folder, it's the easiest way to keep your blog upgradable.</p>
+                        <p>Theming support allow your to override or create:</p>
+                        <ul>
+                            <li>twig templates</li>
+                            <li>css and images files</li>
+                            <li>controllers</li>
+                        </ul>
+                        <p>To create a new theme:</p>
+                        <p>create a directory under <code>web/themes/YOUR_THEME_NAME</code>.</p>
+                        <p>enable it in the <code>app/config.php</code> file, set the value of the <code>theme</code> key to <code>YOUR_THEME_NAME</code>.</p>
+                        <p>Your done! you can start working on your theme.</p>
+                    </div>
+                </div>
+            </div> <!-- /container -->
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+            <script>
+                $(function() {
+                    $('.show_demonstration').click(function() {
+                        $('.startpage').animate({'margin-top': -$('.startpage').height()}, 500, function() {
+                            $(this).hide();
+                        });
+                        $('.demonstration').show();
+                    });
+                });
+            </script>
+        </body>
+    </html>
 

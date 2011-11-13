@@ -1,21 +1,50 @@
 /* Override some defaults */
 html, body {
+    height: 100%;
     font-family: 'Trebuchet MS', Trebuchet, Verdana, sans-serif;
     background-color: #eee;
+    margin: 0;
+    padding: 0;
 }
-body {
-    padding-top: 40px; /* 40px to make the container go all the way to the bottom of the topbar */
+html {
+    overflow-y: scroll;
 }
-.container > footer p {
-    text-align: center; /* center align it with the container */
+/** inspired from Tubmlr homepage */
+.startpage {
+    position: relative;
+    height: 100%;
+    min-height: 180px;
+}
+.wrap {
+    min-height: 100%;
+    position: relative;
+    z-index: 2;
+    min-width: 900px;
+}
+.main {
+    height: 100%;
+    padding: 40px 0 135px 0;
+    position: relative;
+}
+.footer {
+    z-index: 999;
+    text-align: center;
+    height: 70px;
+    margin: -70px 0 0 0;
+    clear: both;
+    position: relative;
+    min-width: 900px;
+}
+.demonstration {
+    margin-top: 20px;
 }
 .container {
     width: 820px; /* downsize our container to make the content feel a bit tighter and more cohesive. NOTE: this removes two full columns from the grid, meaning you only go to 14 columns and not 16. */
 }
-header {
+.main {
     text-align: center
 }
-header p {
+.main p {
     margin-left: 10%;
     width: 80%;
     font-size: 16px;
@@ -25,11 +54,6 @@ header p {
     line-height: 30px;
 }
 
-
-
-footer {
-    margin-bottom: 100px;
-}
 
 /* The white background content wrapper */
 .content {
