@@ -37,6 +37,11 @@ html {
 }
 .demonstration {
     margin-top: 20px;
+    margin-bottom: 100px;
+}
+.demonstration-buttons {
+    text-align: center;
+    margin-bottom: 22px;
 }
 .container {
     width: 820px; /* downsize our container to make the content feel a bit tighter and more cohesive. NOTE: this removes two full columns from the grid, meaning you only go to 14 columns and not 16. */
@@ -155,4 +160,10 @@ h1 small {
     width: 84%;
     margin-left: 32px;
     color: #777;
+}
+
+.btn.large {
+    padding: 11px 19px 11px;
+    margin: 10px;
+    font-size: 20px;
 }
