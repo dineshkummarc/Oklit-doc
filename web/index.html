@@ -135,12 +135,14 @@
                         $(this).hide();
                     });
                     $('.demonstration').show();
+                    return false;
                 });
 
                 $('.show_home').click(function() {
                     $('.startpage').show().animate({'margin-top': 0}, 500, function() {
                         $('.demonstration').hide();
                     });
+                    return false;
                 });
             });
         </script>
